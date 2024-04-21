@@ -92,7 +92,7 @@ watch(currentPage, () => {
 	border-radius: 5px;
 	font-size: 0.9rem;
 	font-weight: 600;
-	text-shadow: 1px 1px 1px #000000;
+	text-shadow: 1px 1px 1px var(--color-background);
 	padding: 5px;
 }
 

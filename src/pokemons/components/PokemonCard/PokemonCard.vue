@@ -54,6 +54,5 @@ const navigateToPokemon = () => {
 	text-align: center;
 	text-transform: capitalize;
 	font-weight: 600;
-	text-shadow: 1px 1px 1px #000000;
 }
 </style>

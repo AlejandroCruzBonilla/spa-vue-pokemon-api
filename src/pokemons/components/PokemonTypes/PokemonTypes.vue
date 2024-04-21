@@ -24,7 +24,6 @@ defineProps<IPokemonTypes>()
 .types__title {
 	text-align: center;
 	font-weight: 600;
-	text-shadow: 1px 1px 1px #000000;
 }
 
 .type {
@@ -38,6 +37,6 @@ defineProps<IPokemonTypes>()
 	border-radius: 50px;
 	text-transform: capitalize;
 	background-color: var(--color-pokemon-type);
-	text-shadow: 1px 1px 1px #000000;
+	text-shadow: 1px 1px 1px var(--color-background);
 }
 </style>

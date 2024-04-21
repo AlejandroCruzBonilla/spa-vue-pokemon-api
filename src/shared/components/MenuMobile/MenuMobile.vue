@@ -28,7 +28,7 @@ const handleClickOutside = (event: MouseEvent) => {
 			@click="toggleMenu"
 		>
 			<span>
-				{{ isOpen ? 'x' : '=' }}
+				{{ isOpen ? 'X' : '=' }}
 			</span>
 		</button>
 		<nav :class="`menu__nav accent-section ${isOpen ? 'block' : 'hidden'}`">
@@ -54,7 +54,6 @@ const handleClickOutside = (event: MouseEvent) => {
 <style scoped>
 .menu {
 	position: relative;
-
 }
 
 .menu__button {
@@ -67,6 +66,8 @@ const handleClickOutside = (event: MouseEvent) => {
 }
 
 .menu__nav {
+	border: solid 1px var(--color-primary);
+	width: 190px;
 	position: absolute;
 	right: 0;
 }

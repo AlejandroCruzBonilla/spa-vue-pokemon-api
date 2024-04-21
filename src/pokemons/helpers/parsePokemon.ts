@@ -2,7 +2,6 @@ import img404 from '@/assets/404SM.jpeg'
 import type { IPokemon, IPokemonPreview, IPokemonResponse } from '@/pokemons/interfaces'
 
 export const parsePokemon = (pokemon: IPokemonResponse): IPokemon => {
-  console.log(pokemon.sprites)
   return {
     id: pokemon.id,
     height: pokemon.height / 10,
@@ -23,7 +22,6 @@ export const parsePokemon = (pokemon: IPokemonResponse): IPokemon => {
 }
 
 export const parsePokemonPreview = (pokemon: IPokemonResponse): IPokemonPreview => {
-  console.log(pokemon.sprites.front_default)
   return {
     id: pokemon.id,
     name: pokemon.name,

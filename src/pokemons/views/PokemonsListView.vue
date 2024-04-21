@@ -66,6 +66,5 @@ watch(pokemons, () => {
 .title,
 .subtitle {
 	font-weight: 600;
-	text-shadow: 1px 1px 1px #000000;
 }
 </style>

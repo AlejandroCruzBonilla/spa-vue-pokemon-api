@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
 import { MenuMobile } from '@/shared/components/MenuMobile';
+import { SwitchTheme } from '@/shared/components/SwitchTheme';
 import type { INavBar } from './interfaces';
 
 withDefaults(defineProps<INavBar>(), {
@@ -39,6 +40,9 @@ withDefaults(defineProps<INavBar>(), {
 		<div class="navbar__menu">
 			<MenuMobile />
 		</div>
+
+		<SwitchTheme />
+
 	</nav>
 </template>
 
@@ -63,12 +67,14 @@ withDefaults(defineProps<INavBar>(), {
 
 @screen md {
 	.navbar__links {
+		margin-left: auto;
 		display: flex;
 	}
 }
 
 .navbar__menu {
 	display: block;
+	margin-left: auto;
 	gap: 1rem;
 }
 

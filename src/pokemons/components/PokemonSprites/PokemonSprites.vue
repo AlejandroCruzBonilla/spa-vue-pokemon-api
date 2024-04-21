@@ -46,7 +46,6 @@ defineProps<IPokemonSprites>()
 .title {
 	text-align: center;
 	font-weight: 600;
-	text-shadow: 1px 1px 1px #000000;
 }
 
 .sprites {

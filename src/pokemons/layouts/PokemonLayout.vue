@@ -24,7 +24,7 @@ import { pokemonRouteLinks } from '@/pokemons/router/list-routes';
 	border-radius: 50px;
 	padding: 0.1rem 0.7rem;
 	font-weight: 600;
-	text-shadow: 1px 1px 1px #000000;
+	text-shadow: 1px 1px 1px var(--color-background);
 	background-color: var(--color-primary);
 }
 

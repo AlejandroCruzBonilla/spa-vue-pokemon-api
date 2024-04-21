@@ -10,10 +10,9 @@ defineProps<IPokemonHeader>()
 			:src="sprite"
 			:alt="pokemonName"
 		>
-
-		<h1 class="header__title grid-col-s">
+		<h1 class="header__title">
 			<span class="header__name pokemon-font">{{ pokemonName }}</span>
-			<span class="header__id shadow-text-pokemon"> #{{ pokemonId }}</span>
+			<span class="header__id "> #{{ pokemonId }}</span>
 		</h1>
 	</div>
 </template>
