@@ -1,7 +1,3 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
 	<div class="home">
 		<h1 class="mb-6">Por Alejandro Cruz Bonilla</h1>
@@ -60,13 +56,26 @@
 				</li>
 			</ul>
 
-			<p>Esta Aplicación fue desplegada en un <a href="https://aws.amazon.com/es/s3/">Bucket S3 de AWS</a> como pagina
-				estática y distribuida en <a href="https://aws.amazon.com/es/cloudfront/">CloudFront de AWS</a>
+			<p>Esta Aplicación fue desplegada en un <a
+					href="https://aws.amazon.com/es/s3/"
+					target="_blank"
+				>Bucket S3 de AWS</a> como pagina
+				estática y distribuida en <a
+					href="https://aws.amazon.com/es/cloudfront/"
+					target="_blank"
+				>CloudFront de AWS</a>
 				como CDN.</p>
 
 			<p>Toda la información relacionada con los pokemon es consumida con la api REST de <a
-					href="https://pokeapi.co">PokeApi</a>.
+					href="https://pokeapi.co"
+					target="_blank"
+				>PokeApi</a>.
 			</p>
+
+			<p>El repositorio publico donde esta esta aplicación esta en mi <a
+					href="https://github.com/AlejandroCruzBonilla/spa-vue-pokemon-api"
+					target="_blank"
+				>GitHub</a> </p>
 		</section>
 	</div>
 </template>
