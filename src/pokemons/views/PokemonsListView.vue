@@ -6,7 +6,17 @@ import usePokemonsQuery from '@/pokemons/composables/usePokemonsQuery';
 import { PokemonList } from '@/pokemons/components/PokemonList';
 import { PaginationNumbers } from '@/shared/components/PaginationNumbers';
 
-const { pageCount, pageOffset, isLoading, isError, error, pokemons, currentPage, totalPages, setCurrentPage } = usePokemonsQuery()
+const {
+	pageCount,
+	pageOffset,
+	isLoading,
+	isError,
+	error,
+	pokemons,
+	currentPage,
+	totalPages,
+	setCurrentPage
+} = usePokemonsQuery()
 
 watch(pokemons, () => {
 	window.scrollTo({
@@ -14,10 +24,9 @@ watch(pokemons, () => {
 		behavior: 'smooth'
 	});
 })
-
 </script>
-<template>
 
+<template>
 	<div>
 		<h1 class="title mb-4">
 			Pokemon List
@@ -60,7 +69,6 @@ watch(pokemons, () => {
 	</div>
 
 </template>
-
 
 <style scoped>
 .title,
