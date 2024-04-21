@@ -1,0 +1,82 @@
+@layer base {
+  :root {
+    /*
+			Base Colors
+		*/
+
+    /* #e7e5e4 */
+    --base-color-font-light: 231 229 228;
+
+    /* #292524 */
+    --base-color-font-dark: 41 37 36;
+
+    /* #f4f4f5 */
+    --base-color-background-light: 244 244 245;
+
+    /* #18181b */
+    --base-color-background-dark: 24 24 27;
+
+    /* #fafafa */
+    --base-color-background-accent-light: 250 250 250;
+
+    /* #27272a */
+    --base-color-background-accent-dark: 39 39 42;
+
+    /* Primary */
+
+    /* #28b19e */
+    --base-color-primary: 40 177 158;
+
+    /* Theme Base Colors */
+    --base-color-font: var(--base-color-font-light);
+    --base-color-background: var(--base-color-background-dark);
+    --base-color-background-accent: var(--base-color-background-accent-dark);
+
+    /*
+			Colors
+		*/
+
+    /* Primary */
+    --color-primary: theme('colors.primary');
+
+    /* Font */
+    --color-font: theme('colors.font.DEFAULT');
+    --color-font-light: theme('colors.font.light');
+    --color-font-dark: theme('colors.font.dark');
+
+    /* Background */
+    --color-background: theme('colors.background.DEFAULT');
+    --color-background-light: theme('colors.background.light');
+    --color-background-dark: theme('colors.background.dark');
+
+    /* Background Accent */
+    --color-background-accent: theme('colors.background_accent.DEFAULT');
+    --color-background-accent-light: theme('colors.background_accent.light');
+    --color-background-accent-dark: theme('colors.background_accent.dark');
+
+    /* 
+			Pokemon Colors 
+		*/
+
+    --color-pokemon-type-normal: theme('colors.pokemon_type.normal');
+    --color-pokemon-type-fighting: theme('colors.pokemon_type.fighting');
+    --color-pokemon-type-flying: theme('colors.pokemon_type.flying');
+    --color-pokemon-type-poison: theme('colors.pokemon_type.poison');
+    --color-pokemon-type-ground: theme('colors.pokemon_type.ground');
+    --color-pokemon-type-rock: theme('colors.pokemon_type.rock');
+    --color-pokemon-type-bug: theme('colors.pokemon_type.bug');
+    --color-pokemon-type-ghost: theme('colors.pokemon_type.ghost');
+    --color-pokemon-type-steel: theme('colors.pokemon_type.steel');
+    --color-pokemon-type-fire: theme('colors.pokemon_type.fire');
+    --color-pokemon-type-water: theme('colors.pokemon_type.water');
+    --color-pokemon-type-grass: theme('colors.pokemon_type.grass');
+    --color-pokemon-type-electric: theme('colors.pokemon_type.electric');
+    --color-pokemon-type-psychic: theme('colors.pokemon_type.psychic');
+    --color-pokemon-type-ice: theme('colors.pokemon_type.ice');
+    --color-pokemon-type-dragon: theme('colors.pokemon_type.dragon');
+    --color-pokemon-type-dark: theme('colors.pokemon_type.dark');
+    --color-pokemon-type-fairy: theme('colors.pokemon_type.fairy');
+    --color-pokemon-type-unknown: theme('colors.pokemon_type.unknown');
+    --color-pokemon-type-shadow: theme('colors.pokemon_type.shadow');
+  }
+}

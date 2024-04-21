@@ -1,0 +1,23 @@
+@layer utilities {
+  .accent-section {
+    padding: 1rem;
+    background-color: var(--color-background-accent);
+    border-radius: 5px;
+  }
+  .pokemon-font {
+    color: #ffcb05;
+    text-shadow:
+      -1px -1px 1px #0070e0,
+      1px -1px 1px #0070e0,
+      -1px 1px 1px #0070e0,
+      1px 1px 1px #0070e0;
+  }
+
+  .shadow-text-pokemon {
+    text-shadow:
+      -1px -1px 1px #0070e0,
+      1px -1px 1px #0070e0,
+      -1px 1px 1px #0070e0,
+      1px 1px 1px #0070e0;
+  }
+}
