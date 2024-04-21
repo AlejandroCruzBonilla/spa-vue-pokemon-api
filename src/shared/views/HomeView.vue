@@ -59,20 +59,20 @@
 			<p>Esta Aplicación fue desplegada en un <a
 					href="https://aws.amazon.com/es/s3/"
 					target="_blank"
-				>Bucket S3 de AWS</a> como pagina
+				>Bucket S3 de AWS</a> como página
 				estática y distribuida en <a
 					href="https://aws.amazon.com/es/cloudfront/"
 					target="_blank"
 				>CloudFront de AWS</a>
 				como CDN.</p>
 
-			<p>Toda la información relacionada con los pokemon es consumida con la api REST de <a
+			<p>Toda la información relacionada con los pokemon es consumida con la API REST de <a
 					href="https://pokeapi.co"
 					target="_blank"
 				>PokeApi</a>.
 			</p>
 
-			<p>El repositorio publico donde esta esta aplicación esta en mi <a
+			<p>El código de esta aplicación se encuentra en un repositorio público de mi <a
 					href="https://github.com/AlejandroCruzBonilla/spa-vue-pokemon-api"
 					target="_blank"
 				>GitHub</a> </p>
@@ -80,7 +80,7 @@
 
 		<section>
 			<p>
-				Otros Proyectos en mi pagina personal <a
+				Otros de mis proyectos se encuentran en mi página personal <a
 					href="https://alex139139.com/proyectos"
 					target="_blank"
 				>https://alex139139.com/proyectos</a>
