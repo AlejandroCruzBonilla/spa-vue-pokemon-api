@@ -52,6 +52,8 @@ defineProps<IPokemonSprites>()
 .sprites {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
+	grid-column-gap: 0.5rem;
+	grid-row-gap: 0.5rem;
 	justify-items: center;
 }
 

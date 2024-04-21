@@ -28,6 +28,7 @@ defineProps<IPokemonHeader>()
 @screen md {
 	.header {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
+		grid-column-gap: 0.5rem;
 	}
 }
 

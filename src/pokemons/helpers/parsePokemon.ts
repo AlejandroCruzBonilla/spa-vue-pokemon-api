@@ -1,15 +1,17 @@
+import img404 from '@/assets/404SM.jpeg'
 import type { IPokemon, IPokemonPreview, IPokemonResponse } from '@/pokemons/interfaces'
 
 export const parsePokemon = (pokemon: IPokemonResponse): IPokemon => {
+  console.log(pokemon.sprites)
   return {
     id: pokemon.id,
     height: pokemon.height / 10,
     name: pokemon.name,
     sprites: {
-      frontDefault: pokemon.sprites.front_default,
-      backDefault: pokemon.sprites.back_default,
-      frontShiny: pokemon.sprites.front_shiny,
-      backShiny: pokemon.sprites.back_shiny
+      frontDefault: pokemon.sprites.front_default || img404,
+      backDefault: pokemon.sprites.back_default || img404,
+      frontShiny: pokemon.sprites.front_shiny || img404,
+      backShiny: pokemon.sprites.back_shiny || img404
     },
     stats: pokemon.stats.map((stat) => ({
       name: stat.stat.name,
@@ -21,9 +23,10 @@ export const parsePokemon = (pokemon: IPokemonResponse): IPokemon => {
 }
 
 export const parsePokemonPreview = (pokemon: IPokemonResponse): IPokemonPreview => {
+  console.log(pokemon.sprites.front_default)
   return {
     id: pokemon.id,
     name: pokemon.name,
-    sprite: pokemon.sprites.front_default
+    sprite: pokemon.sprites.front_default || img404
   }
 }
