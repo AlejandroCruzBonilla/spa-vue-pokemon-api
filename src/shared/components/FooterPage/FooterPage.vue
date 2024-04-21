@@ -36,6 +36,16 @@ import GitHubIcon from '@/shared/components/icons/GitHubIcon.vue';
 					height="35"
 				/>
 			</a>
+			<a
+				href="https://alex139139.com"
+				target="_blank"
+			>
+				<img
+					src="@/assets/alex139139.png"
+					width="35"
+					height="35"
+				/>
+			</a>
 		</div>
 	</div>
 </template>

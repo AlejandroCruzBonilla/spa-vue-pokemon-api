@@ -77,6 +77,15 @@
 					target="_blank"
 				>GitHub</a> </p>
 		</section>
+
+		<section>
+			<p>
+				Otros Proyectos en mi pagina personal <a
+					href="https://alex139139.com/proyectos"
+					target="_blank"
+				>https://alex139139.com/proyectos</a>
+			</p>
+		</section>
 	</div>
 </template>
 
